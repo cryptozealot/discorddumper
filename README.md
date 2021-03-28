@@ -26,5 +26,12 @@ python3.7 discorddumper.py 123my123.345special345.678token678
 * Use at your own risk and with a test user
 * To Invalidate user's tokens, we can reset the user's password, we are all safe, no reason to worry :)
 
-
-
+# TO DO 
+# More functionality
+* Guild 
+* Invite
+* Emoji
+* User
+* Webhook
+# Exceptions 
+# Formatting for msges

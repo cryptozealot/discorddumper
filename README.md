@@ -18,6 +18,12 @@ python3.7 discorddumper.py {token}
 ```
 python3.7 discorddumper.py 123my123.345special345.678token678
 ```
+or send the output to a file
+
+```
+python3.7 discorddumper.py 123my123.345special345.678token678 > log.txt
+```
+
 # More information:
 
 * MIT License, Please do not do bad stuff with this.

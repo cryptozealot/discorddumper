@@ -1,12 +1,16 @@
 #!/usr/bin/python3.7
 #
-# Get Discord User Private Messages with JWT token v 0.4.0
+# MIT License, use at your own risk, don't do bad stuff please.
+#
+# DiscordDumper 0.4.0 - This is a crude Python API Wrapper for Discord, that dumps user information from JWT token.
+# Current functionality displays User Info, Friends, Servers, Private Message Channels and chat contents.
+#
+# I know this is unoptimized and crude code, and could probably be written in less than 10 lines.
+# Feel free to fork and PR.
 #
 # Requirements: python3.7
 # Usage: python3.7 main.py {token}
 #
-# I am not developer or a python expert, this is unoptimized code and could probably be written in 3 lines, feel free to fork and PR, I dare you teach me how to write better code!
-# This is a very quickly written Proof Of Concept to show how easy it is to get user's username, email, friends, servers and messages if you happen to have that user's JWT Token somehow...
 #
 # https://requests.readthedocs.io/en/latest/user/advanced/
 # https://docs.python.org/3/library/json.html

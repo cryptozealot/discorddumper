@@ -2,15 +2,16 @@
 #
 # MIT License, use at your own risk, don't do bad stuff please.
 #
-# DiscordDumper 0.4.0 - This is a crude Python API Wrapper for Discord, that dumps user information from JWT token.
-# Current functionality displays User Info, Friends, Servers, Private Message Channels and chat contents.
+# DiscordDumper 0.4.0 - This is a crude Python API Wrapper for Discord, that dumps user information from JWT token as command line argument.
+# Current functionality - writes to variables and displays: User Info, Friends, Servers, Message Contents
 #
 # I know this is unoptimized and crude code, and could probably be written in less than 10 lines.
 # Feel free to fork and PR.
 #
 # Requirements: python3.7
-# Usage: python3.7 main.py {token}
 #
+# Usage: python3.7 discorddumper.py {token}
+# Usage: python3.7 discorddumper.py 123testuser123.jwt456.token78987 > log.txt
 #
 # https://requests.readthedocs.io/en/latest/user/advanced/
 # https://docs.python.org/3/library/json.html
